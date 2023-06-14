@@ -5,7 +5,12 @@ import IMG2 from "../assets/Img2.jpg"
 import IMG3 from "../assets/Img3.jpg"
 import IMG4 from "../assets/Img4.jpg"
 import IMG5 from "../assets/Img5.jpg"
-
+import IMG6 from "../assets/Img6.jpg"
+import IMG7 from "../assets/Img7.jpg"
+import IMG8 from "../assets/Img8.jpg"
+import IMG9 from "../assets/Img9.jpg"
+import IMG10 from "../assets/Img10.jpg"
+import IMG11 from "../assets/Img11.jpg"
 
 
 
@@ -74,7 +79,79 @@ const Member = () => {
                 <Link to="" className="btn">WebSite</Link>
                 <Link to="" className="btn btn-light">FaceBook</Link>
             </div>
-        </div>  
+        </div>
+        <div className="mycard">
+            <div className="cimg">
+                <img src={IMG6} alt="IMG6"/>
+            </div>
+            <div className="cdetail">
+                <h2>Nipendro Nath Mohanta.</h2>
+                <br/>
+                <br/>
+                <Link to="" className="btn">WebSite</Link>
+                <Link to="" className="btn btn-light">FaceBook</Link>
+            </div>
+        </div>
+        <div className="mycard">
+            <div className="cimg">
+                <img src={IMG7} alt="IMG6"/>
+            </div>
+            <div className="cdetail">
+                <h2>Purnima Mohanta.</h2>
+                <br/>
+                <br/>
+                <Link to="" className="btn">WebSite</Link>
+                <Link to="" className="btn btn-light">FaceBook</Link>
+            </div>
+        </div>
+        <div className="mycard">
+            <div className="cimg">
+                <img src={IMG8} alt="IMG6"/>
+            </div>
+            <div className="cdetail">
+                <h2>Dr. Bijoy Chandra Mohanta.</h2>
+                <br/>
+                <br/>
+                <Link to="" className="btn">WebSite</Link>
+                <Link to="" className="btn btn-light">FaceBook</Link>
+            </div>
+        </div>
+        <div className="mycard">
+            <div className="cimg">
+                <img src={IMG9} alt="IMG6"/>
+            </div>
+            <div className="cdetail">
+                <h2>Parboti Mohanta.</h2>
+                <br/>
+                <br/>
+                <Link to="" className="btn">WebSite</Link>
+                <Link to="" className="btn btn-light">FaceBook</Link>
+            </div>
+        </div>
+        <div className="mycard">
+            <div className="cimg">
+                <img src={IMG10} alt="IMG6"/>
+            </div>
+            <div className="cdetail">
+                <h2>Subhas Mohanta.</h2>
+                <br/>
+                <br/>
+                <Link to="" className="btn">WebSite</Link>
+                <Link to="" className="btn btn-light">FaceBook</Link>
+            </div>
+        </div>
+        <div className="mycard">
+            <div className="cimg">
+                <img src={IMG11} alt="IMG6"/>
+            </div>
+            <div className="cdetail">
+                <h2>Puja Mohanta.</h2>
+                <br/>
+                <br/>
+                <Link to="" className="btn">WebSite</Link>
+                <Link to="" className="btn btn-light">FaceBook</Link>
+            </div>
+        </div>
     </div>
     </div>
   )
